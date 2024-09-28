@@ -1,0 +1,74 @@
+/*
+Theme Name: Gourmet Garden
+Theme URI: https://wordpress.org/themes/formula/
+Template: formula
+Author: A WP Life
+Author URI: http://awplife.com/
+Description: Gourmet Garden is a WordPress theme designed specifically for food enthusiasts and businesses. It offers a user-friendly interface, customizable features, and compatibility with popular plugins, making it easy to create a professional and visually appealing website. Ideal for restaurants, food bloggers, culinary schools, catering services, grocery stores, and food delivery services, Gourmet Garden provides the perfect platform to showcase your culinary creations and connect with your audience. Live Demo https://awplife.com/demo/gourmet-garden/
+Tags: blog,portfolio,news,grid-Layout,one-column,two-columns,three-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-logo,custom-menu,featured-images,footer-widgets,full-width-template,post-formats,rtl-language-support,sticky-post,translation-ready
+Version: 0.0.3
+Tested up to: 6.5
+Requires PHP: 5.4
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GNU General Public License v2 or later
+Text Domain: gourment-garden
+*/
+
+.blog .entry-content a {
+	font-size: 15px;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.comment-section .comment a {
+	text-decoration: underline;
+}
+
+.blog-grid { padding: 100px 0; }
+
+.blog .post {
+    margin: 0;
+}
+
+.blog-head {
+	margin-top: 0;
+}
+
+.blog-grid .full-content {
+	margin-bottom: 5rem; 
+}
+
+.blog-image-margin {
+	margin-top: -182px;
+}
+
+.page-title-module {
+	background-position: center center !important;
+}
+
+.primary-menu li.current-menu-item>a, .primary-menu li.current-menu-item>.link-icon-wrapper>a {
+	color: var(--thm-primary);
+}
+
+.primary-menu a:hover, .primary-menu a:focus, .primary-menu .current_page_ancestor {
+	color: var(--thm-primary);
+}
+
+.slider-caption .thm-btn:hover {
+	color: var(--thm-primary);
+	background: #fff;
+}
+
+.header .menu>.menu-item:hover>a, .header .menu>.menu-item:hover>span.icon {
+	color: inherit;
+}
+
+.slider-caption .subtitle {
+    background: rgb(255 255 255 / 11%);
+}
+
+@media (max-width: 768px) {
+    .admin-bar-sticky-padding {
+        margin-top: 7vh !important;
+    }
+}
